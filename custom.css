@@ -1,0 +1,66 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background-attachment: fixed;
+	background-color: #222222;
+  background-image: url(https://i.ytimg.com/vi/WXIK4dppWpE/maxresdefault.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  min-width: 320px;
+  text-align: center;
+
+}
+
+h3{
+  margin: auto;
+}
+
+#result {
+  color:#1d1f23;
+  padding: 10px;
+  margin: auto;
+}
+
+
+#header{
+  text-align:center;
+  padding-top:30px;
+  color:white;
+
+}
+
+#city {
+  align: center;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.center {
+
+    margin: auto;
+    width: 50%;
+    padding-top:30px;
+
+}
+
+#resultDiv{
+  margin:auto;
+  opacity: 0.8;
+   filter: alpha(opacity=60); /* For IE8 and earlier */
+   margin-top: 40px;
+     border-radius: 80%;
+}
+
+#resultDiv:hover {
+  opacity: 0.3;
+   filter: alpha(opacity=60); /* For IE8 and earlier */
+    margin-top: 40px;
+      border-radius: 80%;
+}
